@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(252, 168, 168);
+}
+.start{
+    
+    padding: 50px 20px 91px 24px;
+    width: 360px;
+    margin: 100px auto;
+    border-radius: 20px;
+    background: rgb(255, 255,255);
+ }
+ .button{
+    background-color: transparent;
+    border: none;
+    
+ }
+ h1{
+    margin: 21px 0 17px 0;
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 39px;
+ }
+ input{
+    border-radius: 12px; 
+    background: rgb(239, 239, 239);
+    padding: 15px;
+    border: none;
+    color: rgb(153, 153, 153);
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    width: 100%;
+ }
+.menu{
+    margin-top: 29px;
+    margin-bottom: 32px;
+    font-size: 0;
+}
+.menu-item{
+    display: inline-block;
+    margin-right: 24px;
+}
+.menu-item:last-child{
+    margin-right: 0;
+}   
+h3{
+    color: rgb(196, 196, 196);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    text-align: center;
+    margin: 8px 0 0;
+}
+.imgbk{
+    padding: 19px;
+    text-align: center;
+    border-radius: 12px; 
+    background: rgb(239, 239, 239);
+}
+.menu-item:hover h3{
+    color: black
+}
+.menu-item:hover .imgbk{
+    background-color: rgb(234, 226, 183);
+}
+h2{
+    color: rgb(0, 48, 73);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 26px;
+    margin-top: 0;
+}
+.proposition-item{
+    padding: 6px 16px 12px 16px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 0px rgb(230, 230, 230);
+    background: rgb(255, 255, 255);
+    font-size: 0;
+    margin: 12px;
+}
+.img-block,
+.text-block{
+    display: inline-block;
+    vertical-align: middle;
+}
+.text-block{
+    padding-left: 12px;
+}
+.text-block h4{
+    color: rgb(0, 48, 73);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    margin-bottom: 8px;
+    margin-top: 0;
+}
+.text-block h5{
+    color: rgb(214, 40, 40);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    margin: 0;
+}
