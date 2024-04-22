@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-image: url(assets/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  color: white;
+}
+
+main {
+  padding: 0 80px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding-top: 7%;
+  padding-bottom: 10%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-text {
+  font-size: 18px;
+}
+
+.logo-text {
+  display: flex;
+  align-items: center;
+}
+
+.logo-text::before {
+  content: "|";
+  font-size: 30px;
+
+  margin-left: 10px;
+  margin-right: 13px;
+}
+
+.search-icon {
+  font-size: 30px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  column-gap: 19px;
+}
+
+.content {
+  max-width: 60%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.genre-list {
+  font-size: 20px;
+}
+
+.separated-list {
+  display: flex;
+  align-items: center;
+}
+
+.list-item {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.list-item::after {
+  font-size: 150%;
+  content: "|";
+  margin: 0 9px;
+}
+
+.list-item:last-child::after {
+  content: "";
+}
+
+.info-list {
+  font-size: 18px;
+}
+
+.description {
+  font-size: 20px;
+  margin-right: 0%;
+}
+
+.grey-text {
+  color: grey;
+}
+
+.rating {
+  display: flex;
+  margin: 15px 0;
+  gap: 12px;
+}
+
+.fa-star {
+  width: 20px;
+  height: 20px;
+
+  color: yellow;
+}
+
+.fa-star.white {
+  color: white;
+}
+
+button {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid red;
+  border-radius: 100%;
+}
