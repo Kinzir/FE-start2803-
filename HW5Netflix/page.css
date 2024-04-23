@@ -122,12 +122,123 @@ header {
   color: white;
 }
 
-button {
-  width: 40px;
-  height: 40px;
+.stream {
+  display: flex;
+  margin: 15px 0;
+  gap: 50px;
+
+}
+
+.stream {
+font-size: 40px;
+color: white;
+}
+
+.play {
+  padding: 16px 34px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: red;
+  font-size: 14px;
+  color: white;
+  width: 240px;
+  height: 54px;
+}
+
+.play {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid red;
-  border-radius: 100%;
 }
+
+.fa-circle-play{
+  padding-left: 15px;
+  width: 20px;
+  height: 20px;
+}
+
+.all {
+  width: 240px;
+  height: 54px;
+
+  padding: 16px 34px;
+
+  border: 3px solid #fff;
+  border-radius: 5px;
+  font-size: 14px;
+
+  color: white;
+  background-color: transparent;
+}
+
+.popular {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.popular {
+  margin-top: 40px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.pagination-button {
+  width: 40px;
+  height: 40px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  border: 2px solid white;
+  border-radius: 100%;
+
+  background-color: transparent;
+  color: white;
+}
+
+.pagination-button:hover {
+  border-color: grey;
+  color: grey;
+}
+
+.pagination-icon {
+  width: 16px;
+  height: 16px;
+}
+
+
+.overlay {
+  display: flex;
+
+  position: absolute;
+  right: 0;
+  bottom: 20px;
+}
+
+.overlay-red-part, .overlay-grey-part {
+  height: 50px;
+}
+
+.overlay-red-part {
+  width: 33px;
+  background-color: red;
+}
+
+.overlay-grey-part {
+  width: 82px;
+  background-color: grey;
+}
+.overlay-grey-part {
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+  
+}
+
