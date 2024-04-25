@@ -87,6 +87,10 @@ header {
   content: "|";
   margin: 0 9px;
 }
+.grey-text {
+  padding-left: 7px;
+  padding-right: 7px;
+}
 
 .list-item:last-child::after {
   content: "";
@@ -213,6 +217,17 @@ color: white;
   height: 16px;
 }
 
+.film{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 70px;
+}
+
+.photo{
+  width: 100px;
+  height: 150px;
+}
 
 .overlay {
   display: flex;
