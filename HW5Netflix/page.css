@@ -87,9 +87,10 @@ header {
   content: "|";
   margin: 0 9px;
 }
-.grey-text {
+.grey-text-first {
   padding-left: 7px;
   padding-right: 7px;
+  color: grey;
 }
 
 .list-item:last-child::after {
