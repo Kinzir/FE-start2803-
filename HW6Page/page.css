@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+}
+
+body {
+  padding: 17px 50px;
+  color: white;
+  background-color: #212529;
+  font-size: 16px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.central-button {
+  color: white;
+}
+.central-button:hover {
+  color: orange;
+}
+.central-button {
+  text-decoration: none;
+}
+.central-button {
+  text-align: center;
+}
+
+.last-button {
+  padding: 2px 2px;
+  outline: none;
+  border: none;
+  border-radius: 50px;
+  background-color: orange;
+  color: black;
+  width: 80px;
+  height: 37px;
+  font-weight: bold;
+}
+
+.last-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.entry-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.entry-block > h1 {
+  padding: 20px 0;
+}
+
+.entry-block > h1,
+.entry-block > h2,
+.entry-block > h3 {
+  text-align: center;
+}
+
+.entry-block > h3 {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.kartik {
+  color: orange;
+}
+
+.experience {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.experience-button {
+  width: 380px;
+  height: 120px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background-color: #292b2e;
+}
+
+.block-point,
+.block-text-point {
+  display: flex;
+  flex-direction: column;
+}
+
+.experience-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.photo-experience {
+  padding-left: 20px;
+}
+
+.experience-icon {
+  padding-right: 20px;
+}
+
+.experience-button:hover {
+  background: linear-gradient(
+    94.3deg,
+    #ffb742 0%,
+    rgba(255, 123, 66, 0.76) 99.33%
+  );
+}
+
+.experience-button:hover .point,
+.experience-button:hover .text-point {
+  color: black;
+}
+
+.point {
+  font-size: 26px;
+  color: orange;
+}
+
+.text-point {
+  font-size: 16px;
+  color: white;
+}
+
+.about-me {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.man {
+  width: 50%;
+  height: 50%;
+}
+
+.who-i-am {
+  padding: 6px, 25px, 6px, 25px;
+  outline: none;
+  border: none;
+  border-radius: 50px;
+  background-color: #292b2e;
+  font-size: 14px;
+  color: #ffb742;
+  width: 148px;
+  height: 42px;
+  margin-top: 100px;
+}
+
+.text-about-me {
+  padding-top: 42px;
+  padding-bottom: 20px;
+}
+
+.hire-me {
+  padding: 6px, 25px, 6px, 25px;
+  outline: none;
+  border: none;
+  border-radius: 50px;
+  background-color: #ffb742;
+  font-size: 14px;
+  color: #292b2e;
+  width: 148px;
+  height: 54px;
+  margin-top: 100px;
+}
+
+.my-skills-block {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.my-skills {
+  width: 50%;
+  height: 50%;
+}
+
+.my-skills-button {
+  padding: 6px, 25px, 6px, 25px;
+  outline: none;
+  border: none;
+  border-radius: 50px;
+  background-color: #292b2e;
+  font-size: 14px;
+  color: #ffb742;
+  width: 148px;
+  height: 42px;
+  margin-top: 100px;
+}
+
+.text-about-me {
+  padding-top: 42px;
+  padding-bottom: 20px;
+}
+
+.hire-me {
+  padding: 6px, 25px, 6px, 25px;
+  outline: none;
+  border: none;
+  border-radius: 50px;
+  background-color: #ffb742;
+  font-size: 14px;
+  color: #292b2e;
+  width: 148px;
+  height: 54px;
+  margin-top: 100px;
+}
+
+.softs {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 16px;
+}
+
+.soft-icons {
+  padding: 16px 16px 16px 16px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  background-color: #292b2e;
+  width: 80px;
+  height: 80px;
+}
+
+.soft-icons:hover {
+  background: #ffb74280;
+}
+
+.my-works-button {
+  padding: 6px, 25px, 6px, 25px;
+  outline: none;
+  border: none;
+  border-radius: 50px;
+  background-color: #292b2e;
+  font-size: 14px;
+  color: #ffb742;
+  width: 148px;
+  height: 42px;
+  margin-top: 200px;
+}
+
+.my-works {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-my-works {
+  margin-top: 15px;
+}
+
+.buttom-all {
+  padding: 5px, 20px, 5px, 20px;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  background-color: #212529;
+  width: 220px;
+  height: 40px;
+  margin-top: 30px;
+}
+
+.buttom-all:hover {
+  background: #ffb742;
+}
