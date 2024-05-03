@@ -1,0 +1,59 @@
+.experience-block {
+  display: flex;
+  justify-content: space-between;
+
+  /* TODO */
+  /* padding-top: 30px; */
+}
+
+.experience-button {
+  width: 380px;
+  height: 120px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background-color: #292b2e;
+}
+
+.block-point,
+.block-text-point {
+  display: flex;
+  flex-direction: column;
+}
+
+.experience-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.photo-experience {
+  padding-left: 20px;
+}
+
+.experience-icon {
+  padding-right: 20px;
+}
+
+.experience-button:hover {
+  background: linear-gradient(
+    94.3deg,
+    #ffb742 0%,
+    rgba(255, 123, 66, 0.76) 99.33%
+  );
+}
+
+.experience-button:hover .point,
+.experience-button:hover .text-point {
+  color: black;
+}
+
+.point {
+  font-size: 26px;
+  color: orange;
+}
+
+.text-point {
+  font-size: 16px;
+  color: white;
+}
