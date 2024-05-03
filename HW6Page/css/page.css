@@ -9,45 +9,6 @@ body {
   font-size: 16px;
 }
 
-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-}
-
-.central-button {
-  color: white;
-}
-.central-button:hover {
-  color: orange;
-}
-.central-button {
-  text-decoration: none;
-}
-.central-button {
-  text-align: center;
-}
-
-.last-button {
-  padding: 2px 2px;
-  outline: none;
-  border: none;
-  border-radius: 50px;
-  background-color: orange;
-  color: black;
-  width: 80px;
-  height: 37px;
-  font-weight: bold;
-}
-
-.last-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .entry-block {
   display: flex;
   flex-direction: column;
