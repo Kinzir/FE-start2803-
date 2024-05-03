@@ -1,17 +1,31 @@
 header {
   display: flex;
   align-items: center;
-  /* TODO: fix tight spacing between items */
-  justify-content: space-between;
+  gap: 5px;
+
+  margin-bottom: 30px;
 }
 
 .header-logo {
-  margin-right: -13px;
+  margin-right: -10px;
 }
 
 header {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
+}
+
+.header-buttons {
+  flex-grow: 1;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+  align-items: center;
+  align-content: start;
+
+  column-gap: 5px;
 }
 
 .header-buttons > a {
@@ -37,11 +51,9 @@ header {
 
   padding: 2px;
 
-  /* TODO: extract */
   outline: none;
   border: none;
 
-  
   background-color: orange;
   color: black;
   border-radius: 50px;
