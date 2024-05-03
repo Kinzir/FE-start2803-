@@ -1,38 +1,27 @@
 .experience-block {
-  display: flex;
-  justify-content: space-between;
-
-  /* TODO */
-  /* padding-top: 30px; */
+  padding-top: 30px;
 }
 
-.experience-button {
-  width: 380px;
+.experience-block {
+  display: flex;
+  gap: 20px;
+
   height: 120px;
-  border-radius: 5px;
-  outline: none;
-  border: none;
-  background-color: #292b2e;
-}
-
-.block-point,
-.block-text-point {
-  display: flex;
-  flex-direction: column;
 }
 
 .experience-button {
+  flex-grow: 1;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
 
-.photo-experience {
-  padding-left: 20px;
-}
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: #292b2e;
 
-.experience-icon {
-  padding-right: 20px;
+  min-height: 100px;
 }
 
 .experience-button:hover {
@@ -43,17 +32,42 @@
   );
 }
 
-.experience-button:hover .point,
-.experience-button:hover .text-point {
-  color: black;
+.experience-icon {
+  padding-left: 20px;
 }
 
-.point {
+.experience-stats-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.experience-right-arrow {
+  padding-right: 20px;
+}
+
+.experience-text-orange {
   font-size: 26px;
   color: orange;
 }
 
-.text-point {
+.experience-text-white {
   font-size: 16px;
   color: white;
+}
+
+.experience-button:hover .experience-text-orange,
+.experience-button:hover .experience-text-white {
+  color: black;
+}
+
+@media (max-width: 1000px) {
+  .experience-block {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .experience-icon {
+    width: 48px;
+    height: 48px;
+  }
 }

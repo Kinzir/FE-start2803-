@@ -1,6 +1,7 @@
 header {
   display: flex;
   align-items: center;
+  /* TODO: fix tight spacing between items */
   justify-content: space-between;
 }
 
