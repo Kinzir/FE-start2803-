@@ -1,11 +1,24 @@
 .my-skills-block {
   padding-top: 30px;
   width: 100%;
-}
 
-.my-skills-block {
   display: flex;
   gap: 97px;
+}
+
+@media (max-width: 1000px) {
+  .my-skills-block {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .my-skills-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .my-skills-button {
@@ -16,18 +29,33 @@
   height: 42px;
 }
 
-.my-skills-icons {
+.my-skills-icons-wrapper {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+}
+
+@media (max-width: 1000px) {
+  .my-skills-icons-wrapper {
+    align-items: center;
+  }
+}
+
+.my-skills-icons-grid {
+  display: grid;
+
+  grid-template-columns: repeat(6, 80px);
+  grid-auto-rows: 80px;
+
   gap: 6px;
 }
 
-.my-skills-icons-row {
-  display: flex;
-  column-gap: 6px;
+@media (max-width: 600px) {
+  .my-skills-icons-grid {
+    grid-template-columns: repeat(3, 80px);
+  }
 }
 
-.my-skills-icons-row > button {
+.my-skills-icons-grid > button {
   display: inline-flex;
 
   justify-content: center;
@@ -35,8 +63,8 @@
 
   padding: 16px;
 
-  width: 80px;
-  height: 80px;
+  width: 100%;
+  height: 100%;
 
   outline: none;
   border: none;
@@ -44,23 +72,6 @@
   background-color: #292b2e;
 }
 
-.my-skills-icons-row > button:hover {
+.my-skills-icons-grid > button:hover {
   background-color: #ffb74280;
-}
-
-@media (max-width: 1000px) {
-  .my-skills-block {
-    flex-direction: column;
-    gap: 30px;
-  }
-  
-  .my-skills-description {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .my-skills-icons {
-    align-items: center;
-  }
 }
