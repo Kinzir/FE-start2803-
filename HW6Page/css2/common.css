@@ -1,6 +1,10 @@
+* {
+  margin: 0;
+}
+
 body {
   padding: 17px 50px;
-  background-color: black;
+  background-color: #212529;
 }
 
 body {

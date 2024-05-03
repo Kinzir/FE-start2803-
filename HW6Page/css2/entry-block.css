@@ -1,0 +1,27 @@
+.entry-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  /* TODO */
+  /* padding-top: 100px; */
+}
+
+.entry-block > h1,
+.entry-block > h2,
+.entry-block > h3 {
+  text-align: center;
+}
+
+.entry-block > h1 {
+  padding: 20px 0;
+}
+
+.entry-block > h3 {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.kartik {
+  color: orange;
+}
