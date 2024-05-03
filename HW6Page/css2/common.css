@@ -22,3 +22,21 @@ body {
       text-align: center;
     }
 }
+
+.description-button {
+  padding: 6px 25px;
+  outline: none;
+  border: none;
+  border-radius: 50px;
+  font-size: 14px;
+}
+
+.hire-me-button {
+  width: 148px;
+  height: 54px;
+
+  background-color: #ffb742;
+  color: #292b2e;
+
+  margin-top: 100px;
+}

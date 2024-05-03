@@ -8,32 +8,12 @@
   gap: 97px;
 }
 
-.my-skills-description > button {
-  outline: none;
-
-  font-size: 14px;
-  border: none;
-  border-radius: 50px;
-
-  padding: 6px 25px;
-}
-
-.my-skills-description-first-button {
+.my-skills-button {
   background-color: #292b2e;
   color: #ffb742;
 
   width: 148px;
   height: 42px;
-}
-
-.my-skills-description-hire-me-button {
-  background-color: #ffb742;
-  color: #292b2e;
-
-  width: 148px;
-  height: 54px;
-
-  margin-top: 25px;
 }
 
 .my-skills-icons {
