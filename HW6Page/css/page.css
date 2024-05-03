@@ -180,7 +180,7 @@ header {
   gap: 5px;
 }
 
-.my-skills {
+.my-skill {
   width: 50%;
   height: 50%;
 }
@@ -209,8 +209,8 @@ header {
   border: none;
   border-radius: 50px;
   background-color: #ffb742;
-  font-size: 14px;
   color: #292b2e;
+  font-size: 14px;
   width: 148px;
   height: 54px;
   margin-top: 100px;
@@ -219,8 +219,22 @@ header {
 .softs {
   display: flex;
   flex-wrap: wrap;
+
   align-content: flex-start;
-  gap: 16px;
+  justify-content: end;
+
+  margin-top: 100px;
+  column-gap: 6px;
+  row-gap: 6px;
+  margin-left: 60px;
+}
+
+.softs > * {
+  flex-basis: 16%;
+  flex-grow: 0;
+  flex-shrink: 0;
+
+  padding: 0 16px;
 }
 
 .soft-icons {
@@ -274,3 +288,5 @@ header {
 .buttom-all:hover {
   background: #ffb742;
 }
+
+
