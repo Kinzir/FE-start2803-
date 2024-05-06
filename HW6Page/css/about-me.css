@@ -4,9 +4,24 @@
   gap: 5px;
 }
 
-.man {
+@media (max-width: 1000px) {
+  .about-me {
+    flex-direction: column;
+    height: auto;
+  }
+}
+
+.about-me-man {
   width: 50%;
   height: 50%;
+}
+
+@media (max-width: 1000px) {
+  .about-me-man {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+  }
 }
 
 .about-me-who-i-am-button {
@@ -17,19 +32,7 @@
   color: #ffb742;
 }
 
-.text-about-me {
+.about-me-text {
   padding-top: 42px;
   padding-bottom: 20px;
-}
-
-@media (max-width: 1000px) {
-  .man {
-    display: block;
-    margin-left: auto;
-    margin-right: auto
-  }
-  .about-me {
-    flex-direction: column;
-    height: auto;
-  }
 }
