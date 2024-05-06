@@ -3,13 +3,13 @@
 }
 
 body {
-  padding: 17px 50px;
-  background-color: #212529;
-}
-
-body {
   color: white;
   font-size: 16px;
+}
+
+main {
+  padding: 17px 50px;
+  background-color: #212529;
 }
 
 .header-margins {

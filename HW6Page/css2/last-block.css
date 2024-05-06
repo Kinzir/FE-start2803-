@@ -1,0 +1,46 @@
+.last-block {
+  background-color: #1c1c1c;
+}
+
+.last-block {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 148px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 30px;
+}
+
+.last-block > div {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.kartik-bansal-block {
+  display: flex;
+}
+
+.last-block-header-margin {
+  margin-bottom: 15px;
+}
+
+.last-block-header-text {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.last-block-header-kartik {
+  font-size: 28px;
+  font-weight: bold;
+  color: orange;
+}
+
+.last-block-last-text {
+  color: #7B7B7B;
+}
+
+.last-block-last-text:hover {
+  color: orange;
+}
