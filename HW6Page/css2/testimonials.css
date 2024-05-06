@@ -1,4 +1,4 @@
-.testimonials{
+.testimonials {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,20 +23,29 @@
     margin-bottom: 80px;
 }
 
+@media (max-width: 1000px) {
+    .customer-text {
+        margin-bottom: 20px;
+    }
+}
+
 .customer-testimonials {
     display: flex;
     justify-content: space-between;
     gap: 15px;
 }
 
+@media (max-width: 1250px) {
+    .img-customer {
+        width: 170px;
+        height: 210px;
+    }
+}
+
 @media (max-width: 1000px) {
     .img-customer {
         width: 130px;
         height: 170px;
-    }
-    
-    .customer-text{
-        margin-bottom: 20px;
     }
 }
 
