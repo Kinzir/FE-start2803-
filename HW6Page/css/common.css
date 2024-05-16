@@ -4,12 +4,14 @@
 
 body {
   color: white;
-  font-size: 16px;
+  
 }
 
 main {
   padding: 17px 50px;
   background-color: #212529;
+  max-width: 1335px;
+  
 }
 
 .header-margins {

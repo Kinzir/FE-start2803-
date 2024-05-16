@@ -14,6 +14,7 @@
   width: 148px;
   height: 42px;
   margin-top: 200px;
+  
 }
 
 .my-works {
@@ -35,6 +36,7 @@
   width: 220px;
   height: 40px;
   margin-top: 30px;
+  color: white;
 }
 
 @media (max-width: 1000px) {
@@ -45,6 +47,7 @@
 
 .buttom-all:hover {
   background: #ffb742;
+  color: black;
 }
 
 .my-works-images {
