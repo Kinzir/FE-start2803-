@@ -8,6 +8,11 @@
   padding-left: 50px;
   padding-right: 50px;
   padding-bottom: 30px;
+  font-family: Work Sans;
+}
+
+.last-block p {
+  font-family: Work Sans;
 }
 
 .last-block * {

@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     margin-bottom: 253px;
+    margin-top: 135px;
 }
 
 .my-testimonials {
@@ -17,15 +18,18 @@
     height: 42px;
     margin-top: 200px;
     margin-bottom: 30px;
+    font-family: Poppins;
 }
 
 .customer-text {
     margin-bottom: 80px;
+    font-family: Roboto;
+    padding-bottom: 90px;
 }
 
-.card {
+.testimonials-card {
     background-color: white;
-    padding: 50px 52px 49px 33px;
+    padding: 52px 52px 49px 33px;
     width: fit-content;
     width: 380px;
     height: 455px;
@@ -39,16 +43,18 @@
     column-gap: 9px;
     color: #FFB742;
     padding-bottom: 22px;
+    font-size: 13px;
   }
 
-  .comments .text {
-    margin-top: 21px;
+   .testimonials-text {
     font-size: 20px;
     color: black;
     line-height: 34px;
+    font-weight: 400;
+    font-family: "Poppins";
   }
   .person {
-    margin-top: 37px;
+    margin-top: 36px;
     display: flex;
     column-gap: 24px;
     align-items: center;
@@ -59,6 +65,7 @@
     font-size: 20px;
     color: black;
     margin-top: 0;
+    font-family: "Poppins";
   }
 
   

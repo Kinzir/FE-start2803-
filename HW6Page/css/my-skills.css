@@ -24,7 +24,8 @@
 .my-skills-button {
   background-color: #292b2e;
   color: #ffb742;
-
+  font-family: Poppins
+  ;
   width: 148px;
   height: 42px;
 }
@@ -75,3 +76,8 @@
 .my-skills-icons-grid > button:hover {
   background-color: #ffb74280;
 }
+
+.header-margins {
+  font-family: Roboto;
+}
+

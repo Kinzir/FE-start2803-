@@ -2,7 +2,10 @@
   display: flex;
   justify-content: space-between;
   gap: 5px;
+  margin-top: 76px;
 }
+
+
 
 @media (max-width: 1000px) {
   .about-me {
@@ -27,7 +30,7 @@
 .about-me-who-i-am-button {
   width: 148px;
   height: 42px;
-
+  font-family: Poppins;
   background-color: #292b2e;
   color: #ffb742;
 }
@@ -35,4 +38,9 @@
 .about-me-text {
   padding-top: 42px;
   padding-bottom: 20px;
+  font-family: Roboto;
+}
+
+.man-side p {
+  font-family: Poppins;
 }

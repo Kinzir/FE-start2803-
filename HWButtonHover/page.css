@@ -1,0 +1,40 @@
+button {
+    width: 143px;
+    height: 56px;
+    box-sizing: border-box;
+    border: 2px solid rgb(15, 137, 250);
+    background: rgba(255, 255, 255, 0);
+    color: rgb(15, 137, 250);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    
+
+}
+
+body {
+    background-color: black;
+    
+}
+
+.button-flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;  
+    gap: 40px;
+}
+
+.fillin {
+    background: transparent;
+    transition: all 0.3s ease-in;
+  }
+  .fillin:hover {
+    color: white;
+    background-color: #0F89FA;
+  }
+
+
+  

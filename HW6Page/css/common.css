@@ -4,12 +4,24 @@
 
 body {
   color: white;
+  background-color: #212529;
+  display: flex;
+  justify-content: center;
+  
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  
   
 }
 
-main {
-  padding: 17px 50px;
-  background-color: #212529;
+p {
+  font-family: Poppins;
+}
+
+.main-content {
+  padding-top: 17px; 
+  padding-left: 50px;
+  padding-right: 50px;
   max-width: 1335px;
   
 }
@@ -39,7 +51,7 @@ main {
 
   background-color: #ffb742;
   color: #292b2e;
-
+  font-family: Poppins;
   margin-top: 100px;
 }
 
