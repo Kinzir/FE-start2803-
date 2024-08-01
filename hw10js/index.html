@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .resizeBlock{
+            width: 250px;
+            height: 100px;
+            text-align: center;
+            border: 2px solid black;
+        }
+        .container{
+            width: 500;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+        .container>div{
+            padding: 30px;
+        }
+        .menuBlock{
+            display: flex;
+            justify-content: flex-start;
+        }
+        .btnMenu{
+            border-radius: 10%;
+            background-color: yellow;
+            width: 10%;
+            height: 200px;
+        }
+        .sectionMenu{
+            margin: 0 auto;
+            display: none;
+
+        }
+        .menuEl{
+            background-color: rebeccapurple;
+            border: 3px solid red;
+            width: 200px;
+        }
+    </style>
+    <script src="js.js"></script>
+</head>
+<body>
+    <section class="button"></section>
+    <div></div>
+    <button class="counterUp">add +1</button>
+    <p class="counter"></p>
+    <div class="container"></div>
+    <section class="blockContainer">
+
+    </section>
+    <section class="menuBlock">
+        <button id="btnMenu">
+            Open
+        </button>
+        <ul class="sectionMenu">
+            
+        </ul>
+    </section>
+</body>
+</html>

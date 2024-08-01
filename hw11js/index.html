@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="js.js"></script>
+    <style>
+        #textBlock {
+            width: 1600px;
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin: 50px auto;
+        }
+        #contextMenu {
+            display: none;
+            position: absolute;
+            z-index: 1000;
+        }
+        #gameArea {
+            width: 500px;
+            height: 500px;
+            border: 2px solid #000;
+            position: relative;
+            overflow: hidden;
+            margin: 50px auto;
+        }
+        #movableObject {
+            width: 50px;
+            height: 50px;
+            background-color: red;
+            position: absolute;
+            top: 225px;
+            left: 225px;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="textBlock" class="p-3 border">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit a dolorem vitae cumque molestiae quaerat nemo suscipit laborum te
+    </div>
+    <div id="contextMenu" class="dropdown-menu">
+        <button class="dropdown-item" id="centerContent">
+            Align center
+        </button>
+        <button class="dropdown-item" id="rightContent">
+            Align right
+        </button>
+        <button class="dropdown-item" id="leftContent">
+            Align left
+        </button>
+        <button class="dropdown-item bg-danger" id="hideMenu">
+            Hide menu
+        </button>
+    </div>
+    <div id="gameArea">
+        <div id="movableObject"></div>
+    </div>
+    <div>
+        <p class="hello-World">
+            Hello World!
+        </p>
+    </div>
+    
+</body>
+</html>
